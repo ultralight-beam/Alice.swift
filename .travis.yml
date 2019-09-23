@@ -1,0 +1,12 @@
+os: osx
+language: swift
+osx_image: xcode10.3
+xcode_project: Alice.xcodeproj
+xcode_scheme: Alice.Package
+
+before_install: make xcode
+
+script: make test
+
+notifications:
+  email: false

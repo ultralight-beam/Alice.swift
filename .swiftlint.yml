@@ -1,0 +1,9 @@
+included:
+  - Sources
+  - Tests
+excluded:
+  - Tests/AliceTests/XCTestManifests.swift
+  - Package.swift
+  - Tests/LinuxMain.swift
+disabled_rules:
+    - trailing_comma
