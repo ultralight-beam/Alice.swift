@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -7,7 +7,7 @@ let package = Package(
     name: "Alice",
     platforms: [
         .macOS(.v10_15),
-        .iOS(.v13_0)
+        .iOS("13.0")
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
